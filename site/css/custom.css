@@ -409,7 +409,7 @@ a:hover{
   }
   .search-block {
     margin-top: 65px;
-    width : 210px;
+    width : 160px;
     float : right;
   }
 
@@ -462,4 +462,9 @@ a:hover{
       padding-top: 10px ;
   }
 
+}
+@media only screen and (max-width: 470px) {
+  .pagination {
+    padding-left: 13% !important;
+    }
 }
